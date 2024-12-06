@@ -2,12 +2,12 @@
 <html lang="en">
 
 <head>
-	<meta name="description" content="">
-	<meta name="google-site-verification" content="">
-	<!-- ^^^Verifies the ownership of the website for Google Search Console. This one is case-sensitive.-->
+	<!--"meta tag": SEO information can go here
+		meta tags are also "typically used to specify character set, page description, keywords, author of the document, and viewport settings."
+		The <head>'s job is meta data, not anything people see.-->
 
 	<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Water Plus</title>
+	<title>WaterPlus: Water Is Life</title>
 
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -31,103 +31,142 @@
 		integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
 	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="landing.css">
 
 </head>
 
-
-
 <body>
-	<div class="landing-container">
-
+	<div class="page-container">
 
 		<!-- HEADER -->
-
-
-		<header class="header-container mb-2">
-		    
-			<nav class="navbar navbar-expand-lg navbar-landing" data-bs-theme="dark" role="navigation">
-			    
+		<header class="header-container fixed-top">
+			<nav id="navbar" class="navbar navbar-expand-lg" data-bs-theme="dark" role="navigation">
 				<div class="container-fluid flex-nowrap flex-column flex-sm-row">
-				    
 				  <a class="navbar-brand" href="index.html">
 					<img id="logo-51" width="205" height="35" viewBox="0 0 167 41" src="Images/logo.png">
 				  </a>
-				  
 				  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
 					aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"></span>
 				  </button>
-				  
-				  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-				      
+				  <div class="collapse navbar-collapse " id="navbarSupportedContent">
 					<ul class="navbar-nav ms-auto collapsed-ul-spacing">
-					  <li class="nav-item">
-						<a class="nav-link about" href="#">More Coming Soon</a>
-					  </li>
+						<li class="nav-item">
+							<a class="nav-link about" href="about.html">Our Story</a>
+						  </li>
+						  <li class="nav-item">
+							<a class="nav-link" href="mission.html">Our Mission</a>
+						  </li>
+						  <li class="nav-item">
+							<a class="nav-link" href="initiatives.html">Our Initiatives</a>
+						  </li>
 					</ul>
-					</div>
 				  </div>
-				  
 			  </nav>
-			  
 		</header>
 
-            		<!-- MAIN -->
+		<!-- MAIN -->
 
-		<main class="container-lg
-					flex-grow-1
-					d-flex
-					justify-content-center
-					align-items-center
-					flex-column
-					flex-xl-row
-					flex-wrap
-					mb-4">
-				
-    		<div class="landing-intro
-                		d-flex
-                		align-items-center
-                		justify-content-center
-                		flex-column
-                		text-blob-container">
-			            		    
-                <h1 class="landing-text">Welcome to Water Plus</h1>
-                <h3 class="landing-text"><i>Water is Life</i></h3>
-                
-    			<p class="landing-text">WaterPlus is a community-driven initiative providing sustainable water solutions to rural communities. 
-                Our mission is to empower women, children, and families and thus the whole community is enlivened through access to clean water, improving health, education, and economic opportunities.</p>
-                
-                <p class="landing-text">WaterPlus addresses the root cause(s) of water scarcity in rural communities — often, whether directly or in indirectly, this root cause is colonization.  Our collaborative approach brings together local leaders, organizations, and experts to suggest and support applicable sustainable water systems. We strive to do this with an indigenized perspective and by employing indigenous methodology.</p>
+		<main class="container-fluid d-flex
+		flex-grow-1
+		justify-content-center
+		align-items-center
+		flex-column
+		content-pages">
+            
+            <div class="container-fluid
+			d-flex flex-grow-1
+			align-items-center
+			justify-content-end
+			flex-column-reverse
+			flex-lg-row
+			bg-img-container
+			index">
 
-                 <a href="https://www.eventbrite.com/e/join-gustoso-for-tapas-and-tunes-tickets-1082934589509"><h2 class="landing-text">Click here to support us and join our Owen Sound fundraiser on November 24th</h2></a>
-                
-    			<h3 class="landing-text"><b>Or check out our parent company at <a href="https://odenaansan.com">https://odenaansan.com</a></b></h3>
-    			
-    		</div>
+				<div class="trans-textbox
+				d-flex
+				flex-column
+				align-items-center
+				justify-content-center
+				px-6
+				nav-padding">
 
-		</main>
+					<h1>Welcome to WaterPlus</h1>
+					<h4 class="fs-italic">Water is Life</h4>
+
+					<p>WaterPlus is a community-driven initiative providing sustainable water solutions to rural communities. Our mission is to empower women, children, and families and thus the whole community is enlivened through access to clean water, improving health, education, and economic opportunities.</p>
+
+					<button onclick="location.href='waterplus.html'">Keep Reading</button>
+				</div>
+
+            </div>
+
+			<div class="container-fluid blue-bg">
+
+				<div class="container-fluid page-title py-4">
+					<h4 style="color:white">“We want this project to serve as a model for other communities.”</h4>
+				</div>
+
+				<div class="container-fluid d-flex justify-content-start align-items-center flex-lg-row flex-column pb-4">
+					<div class="story-container third-content d-flex flex-column justify-content-start align-items-center mx-5 mb-3">
+						<img class="thumbnail-size" src="Images/1.jpg" alt="">
+						<div class="textbox-light">
+							<h3 class="pt-2">Our Story</h3>
+							<p class="px-1 text-dark">Initiated  by John Odolon and Kevin Best but under implementation by the Odenaansan Project. WaterPlus's mission is to address the root cause(s) of water scarcity in rural communities; often, whether directly or in indirectly, this cause is colonization.</p>
+							<a href="about.html"><button class="mx-5 mb-3">Learn More</button></a>
+						</div>
+					</div>
+					
+					<div class="story-container third-content d-flex flex-column justify-content-start align-items-center mx-5 mb-3">
+						<img class="thumbnail-size" src="Images/2.jpg" alt="">
+						<div class="textbox-light">
+							<h3 class="pt-2">Our Mission</h3>
+							<p class="px-1 text-dark">Our mission is to provide communities with access to clean water, enhancing health and self-reliance. We do this through a combination of sustainable water infrastructure, community-driven initiatives, education, training, and economic empowerment.</p>
+							<a href="mission.html"><button class="mx-5 mb-3">Read More</button></a>
+						</div>
+					</div>
+		
+					<div class="story-container third-content d-flex flex-column justify-content-start align-items-center mx-5 mb-3">
+						<img class="thumbnail-size" src="Images/3.jpg" alt="">
+						<div class="textbox-light">
+							<h3 class="pt-2">Our Initiatives</h3>
+							<p class="px-1 text-dark">Our latest initiative is bringing hope to Agereger, Uganda, where women and children have long struggled with water scarcity. Spearheaded by Odenaansan Canada and implemented by the WaterPlus team in Uganda, it aims to provide the community with clean, reliable water.</p>
+							<a href="initiatives.html"><button class="mx-5 mb-3">Read More</button></a>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+
+			<div class="container-fluid title-bar is-dark-blue pt-2 pb-2 mb-4">
+                <h2>How You Can Help</h2>
+            </div>
+
+			<div class="container-fluid d-flex flex-column align-items-center mb-3 px-4 archive">
+				<div class="d-flex">
+					<img class="archive-thumb" src="Images/archive-thumb.jpg" alt="">
+					<p>You've reached the end - check back for more stories in the future!</p>
+				</div>
+			</div>
+
+        </main>
 
 		<!-- FOOTER -->
-		<footer class="footer-container d-flex align-items-center flex-column landing-footer">
-			<div class="container-lg d-flex justify-content-around align-items-center mb-2" style="display:none;">
-				<a class="text-light">Copyright © 2024 Water Plus. All rights reserved.</a>
+		<footer class="footer-container d-flex align-items-center flex-column">
+			<div class="container-lg d-flex justify-content-around align-items-center mb-2">
 			</div>
 			<div class="d-flex align-items-center">
-				<p class="text-light copyright-text"><a href="https://odenaansan.com">Odenaansan Dakonaan (Parent Company)</a> | <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+				<p class="text-light copyright-text">Copyright © 2024 Odenaansan Dakonaan. All rights reserved. |
+					<a href="privacy.html">Privacy Policy</a></p>
 			</div>
 		</footer>
 	</div>
 
 	<!-- Script Section -->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script> 
-
-	<script type="text/javascript" src="script.js"></script>
-
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-	integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-	crossorigin="anonymous"></script>
-	
-
+		integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+		crossorigin="anonymous"></script>
+	<script src="script.js"></script>
 
 </body>
 
