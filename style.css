@@ -115,6 +115,9 @@ video {
   background-color: var(--wplus-dark-blue);
 }
 
+.nav-padding {
+  margin-top: 89px;
+}
 
 /*----------------------------- Nav Bar Classes -----------------------------*/
 
@@ -237,10 +240,6 @@ body::-webkit-scrollbar-thumb{
   }
 }
 
-.trans-textbox.index {
-  margin-top: 89px;
-}
-
 .page-title {
   text-align: center;
 }
@@ -309,6 +308,8 @@ img.half-content {
   top: 0;
   min-height: fit-content;
   padding: 2rem;
+  background-image: url(Images/placeholder-bg.jpg);
+  flex: 1 1 0;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: bottom center;
