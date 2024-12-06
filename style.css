@@ -111,14 +111,9 @@ video {
   background-color: var(--wplus-yellow);
 }
 
-.is-orange {
-  background-color: var(--wplus-orange);
+.is-dark-blue {
+  background-color: var(--wplus-dark-blue);
 }
-
-.is-green {
-  background-color: var(--wplus-green);
-}
-
 
 
 /*----------------------------- Nav Bar Classes -----------------------------*/
@@ -228,16 +223,18 @@ body::-webkit-scrollbar-thumb{
 
 /*----------------------------- Main Classes -----------------------------*/
 
-main {
-  background-color: var(--wplus-blue);
-}
-
 .textbox-light {
-  align-self: stretch;
   border-radius: 25px;
   background-color: var(--transparent-bg);
   margin: 1.5rem 0;
   padding: 0 1rem;
+}
+
+@media screen and (min-width: 1500px) {
+  .textbox-light {
+    align-self: stretch;
+    height: 100%;
+  }
 }
 
 .trans-textbox.index {
@@ -365,40 +362,6 @@ img.half-content {
       margin-bottom: 4rem;
   }
 }
-
-
-/* --------------- Landing Page Classes --------------- */
-
-.bg-img-container.index {
-  width: 100%;
-  height: auto;
-  background-image: url(Images/landing-bg.png);
-  flex: 1 1 0;
-}
-
-/* --- Landing Animations --- */
-
-
-.text-blob-container {
-  position: relative;
-  display: inline-block;
-  bottom: -100px;
-  opacity: 0;
-  z-index: 11;
-}
-
-.text-blob-container.active {
-  bottom: 0;
-  opacity: 1;
-  transition: ease-out 0.5s;
-}
-
-.text-blob-container.fade {
-  bottom: 150px;
-  opacity: 0;
-  transition: ease-out 0.5s;
-}
-
 
 /*----------------------------- Footer Classes -----------------------------*/
 

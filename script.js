@@ -12,13 +12,13 @@ function scrollFunction() {
 
 
 
-let blob = document.querySelectorAll('.text-blob-container');
+let box = document.querySelectorAll('.textbox-light');
 
 window.addEventListener('DOMContentLoaded', ( ) => {
 	
 	setTimeout(( ) => {
 
-		blob.forEach((span, idx) => {
+		box.forEach((span, idx) => {
 			setTimeout(( ) => {
 				span.classList.add('active');
 			}, (idx + 1) * 300)

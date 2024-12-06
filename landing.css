@@ -1,0 +1,38 @@
+ /* Animation Classes */
+
+.textbox-light {
+    position: relative;
+    display: inline-block;
+    bottom: -100px;
+    opacity: 0;
+    z-index: 11;
+  }
+  
+  .textbox-light.active {
+    bottom: 0;
+    opacity: 1;
+    transition: ease-out 0.5s;
+  }
+  
+  .textbox-light.fade {
+    bottom: 150px;
+    opacity: 0;
+    transition: ease-out 0.5s;
+  }
+
+  /* BG Classes */
+
+  .bg-img-container.index {
+    width: 100%;
+    height: auto;
+    background-image: url(Images/landing-bg.png);
+    flex: 1 1 0;
+  }
+
+  .blue-bg {
+    background-image: url(Images/blue-bg.jpg);
+    background-position: center bottom;
+    background-size: auto;
+  }
+
+  
