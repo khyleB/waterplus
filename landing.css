@@ -1,4 +1,6 @@
- /* Animation Classes */
+main {
+  background-color: #4996ee;
+}
 
 .textbox-light {
     position: relative;
@@ -33,6 +35,7 @@
     background-image: url(Images/blue-bg.jpg);
     background-position: center bottom;
     background-size: auto;
+    background-repeat: no-repeat;
   }
 
   
