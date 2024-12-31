@@ -1,0 +1,49 @@
+p {
+    font-size: 1.5rem;
+ }
+ 
+ .aki {background-image: url(Images/aki.jpg);}
+ 
+ .aki:hover {background-image: url(Images/aki-bg.jpg);}
+ 
+ .frank {background-image: url(Images/frank.jpg);}
+ 
+ .frank:hover {background-image: url(Images/frank-bg.jpg);}
+
+ .hope {background-image: url(Images/hope.jpg);}
+ 
+ .hope:hover {background-image: url(Images/hope-bg.jpg);}
+
+.profiles {
+    width: 300px;
+    height: 300px;
+    margin: 1.5rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: contain;
+    color: transparent;
+    font-size: 1.8rem;
+  }
+
+.profiles:hover {
+    border-radius: 25px;
+    color: black;
+    font-weight: 800;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white;
+  }
+ 
+ /* ---------- About Background ---------- */
+ 
+ main.content-pages {
+    background-size: 100%;
+  }
+ 
+  @media screen and (max-width: 1200px) {
+    main.content-pages {
+      background-image: none;
+    }
+  }
+ 
