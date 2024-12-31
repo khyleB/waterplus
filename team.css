@@ -1,7 +1,4 @@
-p {
-    font-size: 1.5rem;
- }
- 
+
  .aki {background-image: url(Images/aki.jpg);}
  
  .aki:hover {background-image: url(Images/aki-bg.jpg);}
