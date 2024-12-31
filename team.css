@@ -1,15 +1,7 @@
+p {
+  max-width: 60ch;
+}
 
- .aki {background-image: url(Images/aki.jpg);}
- 
- .aki:hover {background-image: url(Images/aki-bg.jpg);}
- 
- .frank {background-image: url(Images/frank.jpg);}
- 
- .frank:hover {background-image: url(Images/frank-bg.jpg);}
-
- .hope {background-image: url(Images/hope.jpg);}
- 
- .hope:hover {background-image: url(Images/hope-bg.jpg);}
 
 .profiles {
     width: 300px;
